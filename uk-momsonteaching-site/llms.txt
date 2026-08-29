@@ -1,0 +1,30 @@
+# Moms on Teaching UK
+
+> Online 1-on-1 tutoring for British Indian families across the United Kingdom, covering 11+ Exam Preparation (Verbal Reasoning, Non-Verbal Reasoning, English, Maths), GCSE Tuition (AQA, Edexcel, OCR), A-Level Tuition (Sciences, Maths, Humanities), and Indian Curriculum continuity (CBSE, ICSE, IGCSE), delivered by qualified mother-teachers.
+
+## Core Pages
+- [Home](https://uk.momsonteaching.com/): Overview of all four programmes and cities covered
+- [About](https://uk.momsonteaching.com/about.html): Company story and Mother-Teacher philosophy
+- [All Services](https://uk.momsonteaching.com/services.html): 11+ Exam Prep, GCSE, A-Level, and Indian Curriculum programmes
+- [11+ Exam Prep](https://uk.momsonteaching.com/services/11-plus-exam-prep.html): Grammar school entrance exam preparation details
+- [GCSE Tuition](https://uk.momsonteaching.com/services/gcse-tuition.html): GCSE tutoring details
+- [A-Level Tuition](https://uk.momsonteaching.com/services/a-level-tuition.html): A-Level tutoring details
+- [Indian Curriculum](https://uk.momsonteaching.com/services/indian-curriculum.html): CBSE, ICSE, and IGCSE tuition details
+- [London](https://uk.momsonteaching.com/locations/london.html): London-specific service details
+- [Leicester](https://uk.momsonteaching.com/locations/leicester.html): Leicester-specific service details
+- [Birmingham](https://uk.momsonteaching.com/locations/birmingham.html): Birmingham-specific service details
+- [Manchester](https://uk.momsonteaching.com/locations/manchester.html): Manchester-specific service details
+- [Coventry](https://uk.momsonteaching.com/locations/coventry.html): Coventry-specific service details
+- [Slough](https://uk.momsonteaching.com/locations/slough.html): Slough-specific service details
+- [FAQ](https://uk.momsonteaching.com/faq.html): Common questions answered
+- [AI Search Resources](https://uk.momsonteaching.com/ai-search-resources.html): Quick-reference facts about the business
+- [Sitemap](https://uk.momsonteaching.com/sitemap.html): Full list of all pages on the site
+
+## Related
+- [Main Site](https://momsonteaching.com/): Moms on Teaching's primary website
+- [Gulf Site](https://gulf.momsonteaching.com/): Moms on Teaching's Gulf/NRI-focused subdomain
+- [USA Site](https://usa.momsonteaching.com/): Moms on Teaching's USA-focused subdomain
+
+## Optional
+- [Pricing](https://uk.momsonteaching.com/pricing.html)
+- [Contact](https://uk.momsonteaching.com/contact.html)
