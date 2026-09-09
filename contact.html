@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Moms on Teaching UK</title>
+  <meta name="description" content="Get in touch with Moms on Teaching UK by phone, email, or our contact form.">
+  <link rel="canonical" href="https://uk.momsonteaching.com/contact.html">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact Us | Moms on Teaching UK">
+  <meta property="og:description" content="Get in touch with Moms on Teaching UK by phone, email, or our contact form.">
+  <meta property="og:url" content="https://uk.momsonteaching.com/contact.html">
+  <meta property="og:site_name" content="Moms on Teaching">
+  <meta name="theme-color" content="#244A73">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Serif+Display&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: { DEFAULT: '#244A73', dark: '#0D1830', light: '#24365E' },
+            marigold: { DEFAULT: '#E8A63C', dark: '#C9862A', light: '#F3C878' },
+            parchment: '#FBF6EC',
+            blue: { DEFAULT: '#244A73', dark: '#0D1830', light: '#24365E' },
+            gold: { DEFAULT: '#E8A63C', dark: '#C9862A', light: '#F3C878' },
+            paper: '#FBF6EC'
+          },
+          fontFamily: {
+            display: ['DM Serif Display', 'serif'],
+            sans: ['Space Grotesk', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Space Grotesk', sans-serif;
+    }
+
+    .font-display {
+      font-family: 'DM Serif Display', serif;
+    }
+
+    .hero-grid {
+      background-image: linear-gradient(rgba(21, 36, 71, .06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(21, 36, 71, .06) 1px, transparent 1px);
+      background-size: 34px 34px;
+    }
+  </style>
+</head>
+
+<body class="bg-parchment text-navy antialiased pt-28">
+
+  <header
+    class="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[calc(100%-48px)] max-w-[1000px] bg-paper/95 backdrop-blur-md rounded-full shadow-[0_8px_32px_rgba(21,36,71,0.15)] border border-blue/5 transition-all">
+    <nav class="w-full flex items-center justify-between py-1.5 px-1.5 pl-6">
+      <a href="index.html" class="flex items-center gap-2"><img src="images/logo.png" alt="Moms on Teaching logo"
+          width="40" height="40" class="object-contain"><span
+          class="font-display text-xl text-blue hidden sm:inline">Moms on
+          Teaching</span></a>
+      <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+        <a href="about.html" class="hover:text-gold-dark">About</a>
+        <a href="services.html" class="hover:text-gold-dark">Services</a>
+        <div class="relative group">
+          <a href="#" class="hover:text-gold-dark flex items-center gap-1 py-4">Locations <svg
+              class="w-4 h-4 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg></a>
+          <div
+            class="absolute top-[80%] left-0 w-44 bg-white rounded-xl shadow-[0_12px_40px_rgba(21,36,71,0.15)] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-blue/5 overflow-hidden z-50">
+            <a href="locations/new-jersey.html"
+              class="block px-4 py-2.5 text-sm text-blue hover:bg-gold/10 hover:text-gold-dark font-semibold transition-colors">England</a>
+            <a href="locations/california.html"
+              class="block px-4 py-2.5 text-sm text-blue hover:bg-gold/10 hover:text-gold-dark font-semibold transition-colors">Scotland</a>
+            <a href="locations/texas.html"
+              class="block px-4 py-2.5 text-sm text-blue hover:bg-gold/10 hover:text-gold-dark font-semibold transition-colors">Wales</a>
+            <a href="locations/illinois.html"
+              class="block px-4 py-2.5 text-sm text-blue hover:bg-gold/10 hover:text-gold-dark font-semibold transition-colors">Northern
+              Ireland</a>
+            <a href="locations/new-york.html"
+              class="block px-4 py-2.5 text-sm text-blue hover:bg-gold/10 hover:text-gold-dark font-semibold transition-colors">London</a>
+            <a href="locations/washington.html"
+              class="block px-4 py-2.5 text-sm text-blue hover:bg-gold/10 hover:text-gold-dark font-semibold transition-colors">Manchester</a>
+          </div>
+        </div>
+        <a href="faq.html" class="hover:text-gold-dark">FAQ</a>
+        <a href="pricing.html" class="hover:text-gold-dark">Pricing</a>
+        <a href="contact.html" class="text-gold-dark">Contact</a>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="https://wa.me/917012092344?text=Hi,%20I%20would%20like%20to%20book%20a%20free%20demo%20session."
+          target="_blank" rel="noopener noreferrer"
+          class="hidden md:inline-block bg-gold hover:bg-gold-dark text-blue font-semibold px-5 py-2.5 rounded-full text-sm transition whitespace-nowrap">
+          Book Free Demo
+        </a>
+
+        <!-- Mobile menu button -->
+        <button id="mobile-menu-btn" class="md:hidden p-2 text-blue pr-4" aria-label="Toggle Menu">
+          <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile Menu Fullscreen Overlay -->
+  <div id="mobile-menu"
+    class="hidden md:hidden fixed inset-0 bg-[#FBF6EC] z-40 flex-col pt-[120px] px-6 pb-8 gap-6 overflow-y-auto w-full h-screen">
+    <a href="about.html" class="text-lg font-medium hover:text-gold-dark text-blue block">About</a>
+    <a href="services.html" class="text-lg font-medium hover:text-gold-dark text-blue block">Services</a>
+
+    <div>
+      <button id="mobile-locations-btn"
+        class="text-lg font-medium hover:text-gold-dark text-blue flex items-center justify-between w-full">
+        Locations
+        <svg id="mobile-locations-icon" class="w-5 h-5 transition-transform rotate-180" fill="none"
+          stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </button>
+      <div id="mobile-locations-menu" class="flex flex-col gap-4 mt-4 pl-4 border-l-2 border-gold/30">
+        <a href="locations/new-jersey.html" class="text-base font-medium text-blue/80 hover:text-gold-dark">England</a>
+        <a href="locations/california.html" class="text-base font-medium text-blue/80 hover:text-gold-dark">Scotland</a>
+        <a href="locations/texas.html" class="text-base font-medium text-blue/80 hover:text-gold-dark">Wales</a>
+        <a href="locations/illinois.html" class="text-base font-medium text-blue/80 hover:text-gold-dark">Northern
+          Ireland</a>
+        <a href="locations/new-york.html" class="text-base font-medium text-blue/80 hover:text-gold-dark">London</a>
+        <a href="locations/washington.html"
+          class="text-base font-medium text-blue/80 hover:text-gold-dark">Manchester</a>
+      </div>
+    </div>
+
+    <a href="faq.html" class="text-lg font-medium hover:text-gold-dark text-blue block">FAQ</a>
+    <a href="pricing.html" class="text-lg font-medium hover:text-gold-dark text-blue block">Pricing</a>
+    <a href="contact.html" class="text-lg font-medium hover:text-gold-dark text-blue block">Contact</a>
+    <div class="mt-auto pt-6 w-full">
+      <a href="https://wa.me/917012092344?text=Hi,%20I%20would%20like%20to%20book%20a%20free%20demo%20session."
+        target="_blank" rel="noopener noreferrer"
+        class="hidden md:inline-block bg-gold hover:bg-gold-dark text-blue font-semibold px-5 py-2.5 rounded-full text-sm transition whitespace-nowrap">
+        Book Free Demo
+      </a>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero-grid">
+      <div class="max-w-6xl mx-auto px-6 pt-16 pb-14">
+        <div class="max-w-3xl">
+          <p class="text-marigold-dark font-semibold uppercase tracking-[0.18em] text-xs mb-4">We’re here to help</p>
+          <h1 class="font-display text-5xl md:text-6xl leading-tight mb-6">Let’s talk about your child’s learning
+            journey.</h1>
+          <p class="text-lg md:text-xl text-navy/75 max-w-2xl">
+            Whether you’re exploring tuition options or ready to book a free demo class, our team would love to hear
+            from you.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="max-w-6xl mx-auto px-6 pt-6 text-sm text-navy/60">
+      <a href="./index.html" class="hover:text-marigold-dark">Home</a>
+      <span class="mx-2">/</span>
+      <span class="text-navy">Contact</span>
+    </div>
+
+    <section class="max-w-6xl mx-auto px-6 py-14">
+      <div class="grid lg:grid-cols-[.85fr_1.15fr] gap-8 items-start">
+        <div>
+          <p class="text-marigold-dark font-semibold uppercase tracking-[0.18em] text-xs mb-3">Get in touch</p>
+          <h2 class="font-display text-4xl mb-5">A simple conversation can be the first step.</h2>
+          <p class="text-navy/70 leading-7 mb-8">
+            Tell us a little about your child, their year group, and what support you are looking for. We’ll help you
+            understand the right programme and next steps.
+          </p>
+
+          <div class="space-y-4">
+            <a href="tel:+44XXXXXXXXXX"
+              class="flex gap-4 bg-white rounded-2xl p-5 border border-navy/10 hover:border-marigold transition">
+              <div class="w-11 h-11 rounded-full bg-marigold/20 flex items-center justify-center text-xl">☎</div>
+              <div>
+                <h3 class="font-semibold mb-1">Call Us</h3>
+                <p class="text-sm text-navy/70">+44 XXXX XXXXXX</p>
+              </div>
+            </a>
+            <a href="mailto:uk@momsonteaching.com"
+              class="flex gap-4 bg-white rounded-2xl p-5 border border-navy/10 hover:border-marigold transition">
+              <div class="w-11 h-11 rounded-full bg-marigold/20 flex items-center justify-center text-xl">✉</div>
+              <div>
+                <h3 class="font-semibold mb-1">Email Us</h3>
+                <p class="text-sm text-navy/70">uk@momsonteaching.com</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-3xl p-6 md:p-8 border border-navy/10 shadow-sm">
+          <p class="text-marigold-dark font-semibold uppercase tracking-[0.18em] text-xs mb-3">Free demo class</p>
+          <h2 class="font-display text-3xl mb-2">Send us a message</h2>
+          <p class="text-sm text-navy/65 mb-6">We typically respond within a few business hours.</p>
+
+          <form class="space-y-4">
+            <div class="grid sm:grid-cols-2 gap-4">
+              <input type="text" placeholder="Parent's Name" aria-label="Parent's Name"
+                class="w-full px-4 py-3.5 rounded-xl border border-navy/20 text-sm outline-none focus:border-marigold"
+                required>
+              <input type="tel" placeholder="Phone Number" aria-label="Phone Number"
+                class="w-full px-4 py-3.5 rounded-xl border border-navy/20 text-sm outline-none focus:border-marigold"
+                required>
+            </div>
+            <input type="email" placeholder="Email Address" aria-label="Email Address"
+              class="w-full px-4 py-3.5 rounded-xl border border-navy/20 text-sm outline-none focus:border-marigold">
+            <div class="grid sm:grid-cols-2 gap-4">
+              <select aria-label="Programme"
+                class="w-full px-4 py-3.5 rounded-xl border border-navy/20 text-sm outline-none focus:border-marigold">
+                <option>Programme: 11+ Exam Prep</option>
+                <option>Programme: GCSE Tuition</option>
+                <option>Programme: A-Level Tuition</option>
+                <option>Not sure — please advise</option>
+              </select>
+              <select aria-label="City"
+                class="w-full px-4 py-3.5 rounded-xl border border-navy/20 text-sm outline-none focus:border-marigold">
+                <option>City: London</option>
+                <option>City: Leicester</option>
+                <option>City: Birmingham</option>
+                <option>City: Manchester</option>
+                <option>City: Coventry</option>
+                <option>City: Slough</option>
+                <option>Other City</option>
+              </select>
+            </div>
+            <textarea placeholder="Tell us about your child's year group and any specific needs" aria-label="Message"
+              rows="5"
+              class="w-full px-4 py-3.5 rounded-xl border border-navy/20 text-sm outline-none focus:border-marigold"></textarea>
+            <button type="submit"
+              class="w-full bg-navy hover:bg-navy-light text-white font-semibold px-6 py-3.5 rounded-full transition">
+              Request a Free Demo Class
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-navy text-parchment">
+      <div class="max-w-6xl mx-auto px-6 py-14 text-center">
+        <h2 class="font-display text-3xl md:text-4xl mb-4">Not sure which programme is right?</h2>
+        <p class="text-parchment/75 max-w-2xl mx-auto mb-7">That’s completely fine. Share your questions and we’ll guide
+          you towards the best next step.</p>
+        <a href="mailto:uk@momsonteaching.com"
+          class="inline-flex bg-marigold hover:bg-marigold-dark text-navy font-semibold px-6 py-3 rounded-full transition">Email
+          Our Team</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-navy-dark text-parchment/75">
+    <div class="max-w-6xl mx-auto px-6 py-12">
+      <div class="grid md:grid-cols-4 gap-10">
+        <div class="md:col-span-2">
+          <a href="./index.html" class="flex items-center gap-3 mb-4">
+            <img src="./logo.png" alt="Moms on Teaching logo" width="44" height="44"
+              class="rounded-full object-contain">
+            <span class="font-display text-xl text-parchment">Moms on Teaching</span>
+          </a>
+          <p class="max-w-sm text-sm leading-6">Personalised tuition and exam preparation for families across the UK.
+          </p>
+        </div>
+        <div>
+          <h3 class="text-parchment font-semibold mb-4">Explore</h3>
+          <div class="space-y-2 text-sm">
+            <a href="./about.html" class="block hover:text-marigold">About Us</a>
+            <a href="./services.html" class="block hover:text-marigold">Services</a>
+            <a href="./faq.html" class="block hover:text-marigold">FAQs</a>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-parchment font-semibold mb-4">Get Started</h3>
+          <div class="space-y-2 text-sm">
+            <a href="./pricing.html" class="block hover:text-marigold">Pricing</a>
+            <a href="./contact.html" class="block hover:text-marigold">Book Free Demo</a>
+            <a href="./locations/london.html" class="block hover:text-marigold">Find Your Location</a>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-parchment/15 mt-10 pt-5 text-xs flex flex-col sm:flex-row gap-3 justify-between">
+        <span>© 2026 Moms on Teaching. All rights reserved.</span>
+        <div class="flex gap-4">
+          <a href="./legal/privacy-policy.html" class="hover:text-marigold">Privacy Policy</a>
+          <a href="./sitemap.html" class="hover:text-marigold">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // ====== Mobile menu toggle logic ======
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    if (mobileBtn && mobileMenu) {
+      const iconPath = mobileBtn.querySelector('path');
+      mobileBtn.addEventListener('click', () => {
+        const isHidden = mobileMenu.classList.contains('hidden');
+        mobileMenu.classList.toggle('hidden');
+        mobileMenu.classList.toggle('flex');
+        if (isHidden) {
+          // Menu is now open -> Show X
+          if (iconPath) iconPath.setAttribute('d', 'M6 18L18 6M6 6l12 12');
+        } else {
+          // Menu is now closed -> Show Hamburger
+          if (iconPath) iconPath.setAttribute('d', 'M4 6h16M4 12h16M4 18h16');
+        }
+      });
+    }
+
+    // ====== Mobile Locations Dropdown ======
+    const mobLocBtn = document.getElementById('mobile-locations-btn');
+    const mobLocMenu = document.getElementById('mobile-locations-menu');
+    const mobLocIcon = document.getElementById('mobile-locations-icon');
+    if (mobLocBtn && mobLocMenu) {
+      mobLocBtn.addEventListener('click', () => {
+        mobLocMenu.classList.toggle('hidden');
+        mobLocMenu.classList.toggle('flex');
+        if (mobLocIcon) mobLocIcon.classList.toggle('rotate-180');
+      });
+    }
+  </script>
+</body>
+
+</html>
